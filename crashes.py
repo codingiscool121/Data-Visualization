@@ -4,5 +4,5 @@ import plotly.express as px
 data1 = pd.read_csv("crash_catalonia.csv")
 
 graph = px.bar(data1, x="Week", y="Number of Crashes", title="Number of Crashes in Catalonia Per Day", color="Number of Crashes")
-print("Real estate be like: 👱‍♀️")
+print("Crashes")
 graph.show()
